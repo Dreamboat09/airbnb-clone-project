@@ -3,7 +3,7 @@
 
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security.
 
-##**Technology Stack**  
+## **Technology Stack**  
 Django: A high-level Python web framework used for building the RESTful API.  
 Django REST Framework: Provides tools for creating and managing RESTful APIs.  
 PostgreSQL: A powerful relational database used for data storage.  
@@ -14,20 +14,20 @@ Docker: Containerization tool for consistent development and deployment environm
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 
-##**Team Roles**
+## **Team Roles**
 
-###A software developer 
+### A software developer 
 Does the actual job and codes an application. And just like an app features a front end and a back end, there are front-end and back-end developers.
 Front-end developers create the part of an application that users interact with, ensuring that an app offers an equally smooth experience to all—no matter the device, platform, or operational system.
 Back-end developers, in turn, implement the core of an app—its algorithms and business logic. Experienced back-end developers not only write code but also do the tasks of an architect—for example, devise an app architecture or design and implement the necessary integrations.
 There are full-stack developers as well. They can handle all the work at once—from clients to servers to databases and all the needed integrations.
 
-###DevOps engineer
+### DevOps engineer
 Facilitates cooperation between development and operations teams
 Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
 Even in Agile environments, development and operations teams can be siloed. DevOps engineers serve as a link between the two teams, unifying and automating the software delivery process and helping strike a balance between introducing changes quickly and keeping an application stable. Working together with software developers, system administrators, and operational staff, DevOps engineers oversee and facilitate code releases on a CI/CD basis.
 
-###UI/UX designer
+### UI/UX designer
 Transforms a product vision into user-friendly designs
 Creates user journeys for the best user experience and highest conversion rates
 There are two aspects to the product design process—user interface (UI) and user experience (UX) design.
@@ -36,30 +36,45 @@ The UX part stands for thinking out an entire journey of a user’s interaction 
 A UI/UX designer would accompany you throughout the development lifecycle, helping you achieve business goals via functional and engaging user experiences, as well as analyzing, evaluating, and enhancing those experiences over time.
 
 
-##**Database Design**
+## **Database Design**
 
-###Users  
+### Users  
 username  
 email  
 password  
 
-###Properties 
+### Properties 
 users_id
 location  
 descrption
 
-###Bookings 
+### Bookings 
 users_id  
 Properties_id  
 sucessful  
 
-###Reviews
+### Reviews
 users_id  
 rating  
 comment
 
-###Payments 
+### Payments 
 users_id  
 status
 
 
+## **Feature Breakdown**
+
+### user management  
+This is the service that will be given to customers.  
+In this customers can search and book a hotel.  
+Here customers have a separate portal to access the data and process it.
+
+### property management  
+This is the service that will be given to hotel managers/owners.  
+In this managers can manage their hotel's related information.  
+Here managers have a separate portal to access the data and update it.
+
+### booking system
+Here all current and old booking details are shown to the user.  
+Both managers and customers use this service.

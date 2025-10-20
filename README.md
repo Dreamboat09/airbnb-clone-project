@@ -87,14 +87,21 @@ Both managers and customers use this service.
 
 ## **API Security**
 
-#### Authentication  
+### Authentication  
 user data
 
-#### Authorization  
+### Authorization  
 user data
 
-#### Rate limiting  
+### Rate limiting  
 securing payment
 
 
 
+## **CI/CD Pipeline**  
+CI/CD pipelines are automated workflows that streamline software development by integrating code changes, running tests, and deploying applications.  
+Continuous Integration (CI) ensures developers frequently merge code into a shared repository, where it's automatically built and tested to catch bugs early.  
+Continuous Delivery/Deployment (CD) automatically delivers code to testing or production environments, enabling fast, reliable, and frequent releases.  
+They are important because they reduce manual errors, accelerate delivery, improve software quality, and support rapid iteration—key for modern DevOps and Agile practices.
+
+GitHub Actions, Docker
